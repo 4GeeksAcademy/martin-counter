@@ -9,3 +9,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #151414;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .digit {
+    font-size: 4rem;
+    font-weight:bolder;
+    margin: 0 0.5rem;
+    color: #f6f3f2;
+    padding: 2rem;
+   
+
+    
+  }
+  .Icon {
+    position:absolute;
+    margin-left: 20%;
+    margin-top: 90px;
+    
+    color: #f6f3f2;
+  }
+  
