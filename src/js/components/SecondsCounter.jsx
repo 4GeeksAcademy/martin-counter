@@ -8,7 +8,7 @@ const Digit = ({ value }) => {
   return <span className="digit">{value}</span>;
 };
 
-// Definición del componente Counter
+
 const Counter = ({ segundos }) => {
   const digits = segundos.toString().padStart(6, '0').split('');
 
@@ -21,7 +21,7 @@ const Counter = ({ segundos }) => {
   );
 };
 
-// Componente principal de la aplicación
+
 const SecondsCounter = ({ segundosIniciales = 0 }) => {
   const [segundos, setSegundos] = React.useState(segundosIniciales);
 
